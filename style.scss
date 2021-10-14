@@ -1,0 +1,71 @@
+$fuente-titulos: "cookie";
+$fuente-textos: "roboto";
+$color-fondo: #d1e8e4;
+$color-titulos: #c37b89;
+$color-secundario: #bccc9a;
+$color-terciario: #eae7c6;
+
+@font-face {
+  font-family: cookie;
+  src: url(./fonts/LanterosySansSerifFont.ttf) format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: $color-fondo;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: $fuente-titulos;
+  color: $color-titulos;
+}
+h2,
+p {
+  font-size: 2.2rem;
+  text-align: center;
+  font-family: $fuente-textos;
+}
+label {
+  font-size: 1.8rem;
+  font-family: $fuente-textos;
+  font-weight: 300;
+}
+input {
+  width: 65px;
+  height: auto;
+  padding: 4px 0;
+  border: 1px solid #767676;
+  &::placeholder {
+    font-family: $fuente-titulos;
+    padding: 5px;
+  }
+}
+button {
+  width: auto;
+  height: auto;
+  padding: 3px;
+  font-family: $fuente-titulos;
+}
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+.cuadrado {
+  background-color: $color-terciario;
+}
+.triangulo {
+  background-color: $color-titulos;
+}
+.circulo {
+  background-color: $color-secundario;
+}

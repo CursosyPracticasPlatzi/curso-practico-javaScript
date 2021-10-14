@@ -1,0 +1,92 @@
+@font-face {
+  font-family: cookie;
+  src: url(./fonts/LanterosySansSerifFont.ttf) format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #d1e8e4;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: "cookie";
+  color: #c37b89;
+}
+
+h2,
+p {
+  font-size: 2.2rem;
+  text-align: center;
+  font-family: "roboto";
+}
+
+label {
+  font-size: 1.8rem;
+  font-family: "roboto";
+  font-weight: 300;
+}
+
+input {
+  width: 65px;
+  height: auto;
+  padding: 4px 0;
+  border: 1px solid #767676;
+}
+
+input::-webkit-input-placeholder {
+  font-family: "cookie";
+  padding: 5px;
+}
+
+input:-ms-input-placeholder {
+  font-family: "cookie";
+  padding: 5px;
+}
+
+input::-ms-input-placeholder {
+  font-family: "cookie";
+  padding: 5px;
+}
+
+input::placeholder {
+  font-family: "cookie";
+  padding: 5px;
+}
+
+button {
+  width: auto;
+  height: auto;
+  padding: 3px;
+  font-family: "cookie";
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.cuadrado {
+  background-color: #eae7c6;
+}
+
+.triangulo {
+  background-color: #c37b89;
+}
+
+.circulo {
+  background-color: #bccc9a;
+}
+/*# sourceMappingURL=style.css.map */
