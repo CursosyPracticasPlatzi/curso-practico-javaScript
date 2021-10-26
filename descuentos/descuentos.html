@@ -4,27 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="descStyle.css" />
     <title>Porcentajes y descuentos | Curso prácticode Js en Platzi</title>
   </head>
   <body>
     <header>
       <h1>Porcentajes y descuentos</h1>
-      <p>Este es un segundo taller del Curso práctico de Js en Platzi</p>
+      <p class="subtitulo">
+        Este es un segundo taller del Curso práctico de Js en Platzi
+      </p>
     </header>
     <section>
       <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
-      <form action="">
-        <label for="inputPrice">Escribe el precio de tu producto:</label>
-        <input type="number" id="inputPrice" />
-        <label for="inputDiscount"
-          >Escribe el cupón de descuento para tu producto:</label
-        >
-        <input type="number" id="inputDiscount" />
-        <button type="button" onclick="onClickButtonPriceDiscount()">
-          Calcular el precio con descuento
-        </button>
-        <p id="resultP"></p>
-      </form>
+      <div class="section__principal">
+        <form action="">
+          <div>
+            <label for="inputPrice">Escribe el precio de tu producto:</label>
+            <input type="number" id="inputPrice" />
+          </div>
+          <div>
+            <label for="inputDiscount"
+              >Escribe el cupón de descuento para tu producto:</label
+            >
+            <input type="number" id="inputDiscount" />
+          </div>
+          <button type="button" onclick="onClickButtonPriceDiscount()">
+            Calcular el precio con descuento
+          </button>
+          <div><p id="resultP"></p></div>
+        </form>
+        <div class="imgs">
+          <img src="img/money-bag.png" alt="money-bag" />
+          <img src="img/pie-chart.png" alt="pie-chart" />
+        </div>
+      </div>
     </section>
     <script src="descuentos.js"></script>
     <!-- <script src="cupones.js"></script> -->
