@@ -17,50 +17,65 @@
       <p>Este es el primer taller del curso práctico de JS</p>
     </header>
     <section class="cuadrado">
-      <h2>Calcula el área y perímetro de un cuadrado.</h2>
-      <form>
-        <label for="inputCuadrado"
-          >Escribe cuánto mide cada lado del cuadrado:</label
-        >
-        <input type="number" id="inputCuadrado" placeholder="lado" />
-        <button type="button" onclick="calcularPerimetroCuadrado()">
-          Calcular el perímetro
-        </button>
-        <button type="button" onclick="calcularAreaCuadrado()">
-          Calcular el área
-        </button>
-      </form>
+      <div>
+        <h2>Calcula el área y perímetro de un cuadrado.</h2>
+        <form>
+          <label for="inputCuadrado"
+            >Escribe cuánto mide cada lado del cuadrado:</label
+          >
+          <input type="number" id="inputCuadrado" placeholder="lado" />
+          <button type="button" onclick="calcularPerimetroCuadrado()">
+            Calcular el perímetro
+          </button>
+          <button type="button" onclick="calcularAreaCuadrado()">
+            Calcular el área
+          </button>
+        </form>
+      </div>
+      <div class="imgs">
+        <img src="https://i.postimg.cc/cC5zQR1d/cube.png" alt="cuadrado" />
+      </div>
     </section>
     <section class="triangulo">
-      <h2>Calcular el área y el perímetro del triángulo</h2>
-      <form>
-        <label for="inputTrianguloLado1"
-          >Escribe la medida de los lados del triángulo</label
-        >
-        <input type="number" id="inputTrianguloLado1" placeholder="1° lado" />
-        <input type="number" id="inputTrianguloLado2" placeholder="2° lado" />
-        <input type="number" id="inputTrianguloBase" placeholder="base" />
-        <input type="number" id="inputTrianguloAltura" placeholder="altura" />
-        <button type="button" onclick="calcularPerimetroTriangulo()">
-          Calcula el perimetro
-        </button>
-        <button type="button" onclick="calcularAreaTriangulo()">
-          Calcular el área
-        </button>
-      </form>
+      <div>
+        <h2>Calcular el área y el perímetro del triángulo</h2>
+        <form>
+          <label for="inputTrianguloLado1"
+            >Escribe la medida de los lados del triángulo</label
+          >
+          <input type="number" id="inputTrianguloLado1" placeholder="1° lado" />
+          <input type="number" id="inputTrianguloLado2" placeholder="2° lado" />
+          <input type="number" id="inputTrianguloBase" placeholder="base" />
+          <input type="number" id="inputTrianguloAltura" placeholder="altura" />
+          <button type="button" onclick="calcularPerimetroTriangulo()">
+            Calcula el perimetro
+          </button>
+          <button type="button" onclick="calcularAreaTriangulo()">
+            Calcular el área
+          </button>
+        </form>
+      </div>
+      <div class="imgs">
+        <img src="https://i.postimg.cc/QCMP9436/triangle.png" alt="triangulo" />
+      </div>
     </section>
     <section class="circulo">
-      <h2>Calcular el perimetro y área del círculo</h2>
-      <form>
-        <label for="inputCirculo">Escribe el radio del círculo</label>
-        <input type="number" id="inputCirculo" placeholder="radio" />
-        <button type="button" onclick="calcularPerimetroCirculo()">
-          Calcular el perimetro
-        </button>
-        <button type="button" onclick="calcularAreaCirculo()">
-          Calcular el área
-        </button>
-      </form>
+      <div>
+        <h2>Calcular el perimetro y área del círculo</h2>
+        <form>
+          <label for="inputCirculo">Escribe el radio del círculo</label>
+          <input type="number" id="inputCirculo" placeholder="radio" />
+          <button type="button" onclick="calcularPerimetroCirculo()">
+            Calcular el perimetro
+          </button>
+          <button type="button" onclick="calcularAreaCirculo()">
+            Calcular el área
+          </button>
+        </form>
+      </div>
+      <div class="imgs">
+        <img src="https://i.postimg.cc/RVy8hLbR/sphere.png" alt="circulo" />
+      </div>
     </section>
     <script src="figuras.js"></script>
   </body>

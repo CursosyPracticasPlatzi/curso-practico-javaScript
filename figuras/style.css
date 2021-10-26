@@ -1,13 +1,11 @@
 @font-face {
   font-family: cookie;
-  src: url(./fonts/LanterosySansSerifFont.ttf) format("opentype");
+  src: url(../fonts/LanterosySansSerifFont.ttf) format("opentype");
 }
-
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -15,7 +13,7 @@ html {
 }
 
 body {
-  background-color: #d1e8e4;
+  background-color: #c37b89;
 }
 
 h1 {
@@ -23,7 +21,8 @@ h1 {
   letter-spacing: 3px;
   text-align: center;
   font-family: "cookie";
-  color: #c37b89;
+  color: #ffab00;
+  text-shadow: 0 0 4px black;
 }
 
 h2,
@@ -45,22 +44,6 @@ input {
   padding: 4px 0;
   border: 1px solid #767676;
 }
-
-input::-webkit-input-placeholder {
-  font-family: "cookie";
-  padding: 5px;
-}
-
-input:-ms-input-placeholder {
-  font-family: "cookie";
-  padding: 5px;
-}
-
-input::-ms-input-placeholder {
-  font-family: "cookie";
-  padding: 5px;
-}
-
 input::placeholder {
   font-family: "cookie";
   padding: 5px;
@@ -70,7 +53,6 @@ button {
   width: auto;
   height: auto;
   padding: 3px;
-  font-family: "cookie";
 }
 
 section {
@@ -80,13 +62,22 @@ section {
 
 .cuadrado {
   background-color: #eae7c6;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .triangulo {
   background-color: #c37b89;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .circulo {
   background-color: #bccc9a;
+  display: flex;
+  justify-content: space-evenly;
 }
-/*# sourceMappingURL=style.css.map */
+
+.imgs img {
+  width: 180px;
+}

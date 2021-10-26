@@ -7,7 +7,7 @@ $color-terciario: #eae7c6;
 
 @font-face {
   font-family: cookie;
-  src: url(./fonts/LanterosySansSerifFont.ttf) format("opentype");
+  src: url(../fonts/LanterosySansSerifFont.ttf) format("opentype");
 }
 
 * {
@@ -19,15 +19,16 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: $color-fondo;
+  background-color: $color-titulos;
 }
 
 h1 {
   font-size: 6rem;
   letter-spacing: 3px;
   text-align: center;
-  font-family: $fuente-titulos;
-  color: $color-titulos;
+  font-family: "cookie";
+  color: #ffab00;
+  text-shadow: 0 0 4px black;
 }
 h2,
 p {
@@ -54,7 +55,6 @@ button {
   width: auto;
   height: auto;
   padding: 3px;
-  font-family: $fuente-titulos;
 }
 section {
   padding: 50px 0;
@@ -62,10 +62,19 @@ section {
 }
 .cuadrado {
   background-color: $color-terciario;
+  display: flex;
+  justify-content: space-evenly;
 }
 .triangulo {
   background-color: $color-titulos;
+  display: flex;
+  justify-content: space-evenly;
 }
 .circulo {
   background-color: $color-secundario;
+  display: flex;
+  justify-content: space-evenly;
+}
+.imgs img {
+  width: 180px;
 }
